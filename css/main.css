@@ -1,0 +1,24 @@
+/* Beginning of Universal Css  */
+
+* {
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+}
+
+/* Ending of Universal Css */
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.headerimage {
+  border: 2px solid red;
+  height: 200px;
+}
