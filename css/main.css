@@ -1,83 +1,39 @@
-/* Beginning of universal CSS */
+/* Beginning of Universal CSS */
 * {
   border: 2px solid red;
+}
+
+ul {
+  list-style-type: none;
 }
 
 a {
   text-decoration: none;
 }
-/* Ending of universal CSS*/
+/* Ending of Universal CSS */
 
 body {
-  width: 100%;
+  margin: 0px;
+  padding: 0px;
   height: 1200px;
 }
 
 .container-fluid {
-  height: 1200px;
-  padding: 0px;
-  min-width: 430px;
-}
-
-.container-fluid .row {
-  height: 1200px;
   margin: 0px;
   padding: 0px;
+  height: 1200px;
 }
 
-
-.nav p {
-  display: inline-block;
-  height: 100%;
+.nav {
+  height: 60px;
 }
 
-.nav a {
+.navlinks {
+  height: 60px;
   margin: 0px;
   padding: 0px;
 }
 
 .navlink {
-  padding: 12px;
-  min-width: 105px;
-  background-color: black;
-  color: white;
-}
 
-.navlink:hover {
-  background-color: white;
-  color: black;
-}
-
-.navlink a {
-  color: white;
-  border: none;
-}
-
-.navlink a:hover {
-  background-color: white;
-  color: black;
-}
-
-.bossimage {
-  height: 305px;
-  width: 305px;
-  position: relative;
-  top: 15px;
-  border-radius: 50%;
-  float: left;
-}
-
-
-.aboutheader {
-  display: inline-block;
-  position: relative;
-  float: left;
-}
-
-.about-text {
-  float: left;
-  clear: left;
-  position: relative;
-  left: 32px;
-  bottom: 220px;
 }
